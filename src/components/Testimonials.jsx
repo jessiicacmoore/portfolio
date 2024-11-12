@@ -1,8 +1,11 @@
+import Section from "@/components/ui/Section";
+import SectionTitle from "@/components/ui/SectionTitle";
+
 const Testimonials = () => {
   return ( 
-    <section id="testimonials">
-      <h2>What my colleagues say about me.</h2>
-    </section>
+    <Section id="testimonials">
+      <SectionTitle>What my colleagues say about me.</SectionTitle>
+    </Section>
    );
 }
  

@@ -1,7 +1,10 @@
+import Section from '@/components/ui/Section';
+import SectionTitle from '@/components/ui/SectionTitle';
+
 const About = () => {
   return (
-    <section id="about">
-      <h2>A little bit about me.</h2>
+    <Section id="about">
+      <SectionTitle>A little bit about me.</SectionTitle>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, totam
         aliquam maiores blanditiis illo itaque laborum sit. Error consequatur
@@ -13,7 +16,7 @@ const About = () => {
         reprehenderit, quasi dicta numquam eaque tenetur fuga tempora ut!
         Quisquam, similique. Quibusdam, facere.
       </p>
-    </section>
+    </Section>
   );
 };
 
