@@ -1,10 +1,23 @@
-function App() {
+import Header from '@/components/Header';
+import About from '@/components/About';
+import Skills from '@/components/Skills';
+import Projects from '@/components/Projects';
+import Testimonials from '@/components/Testimonials';
+import Footer from '@/components/Footer';
 
+function App() {
   return (
     <>
-      <h1 className="text-3xl text-indigo-600">Hello world</h1>
+      <Header></Header>
+      <main role="main">
+        <About />
+        <Skills />
+        <Projects />
+        <Testimonials />
+      </main>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
