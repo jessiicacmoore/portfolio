@@ -1,30 +1,32 @@
-import { useEffect } from 'react';
-import { Gradient } from '@/utils/gradient';
-import Button from '@/components/ui/Button';
+import { useEffect } from "react";
+import { SiLinkedin } from "react-icons/si";
+import { Gradient } from "@/utils/gradient";
+import Button from "@/components/ui/Button";
 
-import style from '@/components/Header.module.css';
+import style from "@/components/Header.module.css";
 
 const Header = () => {
   useEffect(() => {
     const gradient = new Gradient();
-    gradient.initGradient('#gradient-canvas');
+    gradient.initGradient("#gradient-canvas");
   }, []);
   return (
-    <header role="banner" className="px-5 py-32 relative">
+    <header role="banner" className="relative py-32">
       <div className="container relative z-10 mx-auto">
-        <h1 className="text-8xl font-black">
-          Jessica Moore.{' '}
-          <span className="text-6xl block">Frontend Developer.</span>
+        <h1 className="text-7xl font-black sm:text-8xl">
+          Jessica Moore.{" "}
+          <span className="mt-2 block text-5xl sm:text-6xl">
+            Fullstack Developer.
+          </span>
         </h1>
         <p className="my-6">
-          Frontend developer blending creativity with tech to make things work
+          Fullstack developer blending creativity with tech to make things work
           beautifully.
         </p>
         <div className="cta-buttons flex flex-wrap gap-2">
           <Button href="https://linkedin.com/in/jesscodes" target="_blank">
-            Let's connect!
+            <SiLinkedin className="mb-1 mr-1 inline-block" /> Let's connect!
           </Button>
-
           <Button
             href="https://linkedin.com/in/jesscodes"
             target="_blank"

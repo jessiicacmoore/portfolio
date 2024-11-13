@@ -1,17 +1,17 @@
-import classNames from 'classnames';
+import classNames from "classnames";
 
 const Button = ({
   children,
   className,
   href,
-  btnStyle = 'default',
+  btnStyle = "default",
   ...props
 }) => {
   const buttonClasses = classNames(
-    'px-5 py-3 rounded-3xl font-bold border-2 border-gray-800 inlne-block',
-    { 'bg-gray-800 text-white': btnStyle === 'default' },
-    { 'text-gray-800': btnStyle === 'ghost' },
-    className
+    "btn px-5 py-3 rounded-3xl font-bold border-2 border-gray-800 hover:border-indigo-900 inlne-block transition-colors",
+    { "bg-gray-800 hover:bg-indigo-900 text-white": btnStyle === "default" },
+    { "text-gray-800 hover:text-indigo-900": btnStyle === "ghost" },
+    className,
   );
   if (href) {
     return (
