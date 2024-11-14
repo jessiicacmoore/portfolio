@@ -3,11 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply text-gray-800;
-}
-
-p {
-  @apply text-gray-500 mb-3 leading-relaxed;
+  @apply mb-3 leading-relaxed text-gray-500;
 }
 
 a:not(.btn) {
@@ -16,4 +12,8 @@ a:not(.btn) {
 
 a:not(.btn):hover {
   @apply text-blue-400;
+}
+
+.splide__pagination__page.is-active {
+  background: #1f2937 !important;
 }
