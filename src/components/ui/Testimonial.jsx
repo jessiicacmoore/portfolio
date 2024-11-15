@@ -1,9 +1,10 @@
 import { FaQuoteLeft } from "react-icons/fa";
+import Card from "@/components/ui/Card";
 
 const Testimonial = ({ testimonial }) => {
   return (
-    <div className="testimonial slide h-full p-8">
-      <figure className="flex h-full flex-col justify-between rounded-xl bg-white px-7 pb-7 pt-16 shadow-lg">
+    <Card inSlider className="pt-16">
+      <figure className="flex h-full flex-col justify-between">
         <blockquote className="relative flex flex-grow flex-col justify-center md:text-xl">
           <p className="relative">
             <FaQuoteLeft
@@ -18,7 +19,7 @@ const Testimonial = ({ testimonial }) => {
           <p>{testimonial.relation}</p>
         </figcaption>
       </figure>
-    </div>
+    </Card>
   );
 };
 
