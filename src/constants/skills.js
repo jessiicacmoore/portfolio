@@ -54,7 +54,7 @@ export const ADDITIONAL_SKILLS = [
         items: ["Time Management", "Task Prioritization", "Project Planning"],
       },
       {
-        group: "Project Facilitation:",
+        group: "Project Facilitation",
         items: ["Goal Setting", "Project Planning"],
       },
       {
