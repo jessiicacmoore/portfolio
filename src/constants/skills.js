@@ -26,7 +26,13 @@ export const ADDITIONAL_SKILLS = [
     skills: [
       {
         group: "Frontend Libraries",
-        items: ["Tailwind CSS", "React Hooks", "React Context API", "Redux"],
+        items: [
+          "React Hooks",
+          "React Context API",
+          "Redux",
+          "Tailwind CSS",
+          "Bootstrap",
+        ],
       },
       { group: "Backend Libraries", items: ["Express", "Django"] },
       { group: "Version Control", items: ["Git", "GitHub"] },
@@ -43,40 +49,52 @@ export const ADDITIONAL_SKILLS = [
       {
         group: "Leadership",
         items: [
-          "Leadership",
+          "Decision-Making",
           "Mentoring",
-          "Coaching",
-          "Cross-Functional Collaboration",
+          "Vision Setting",
+          "Inspiring Teams",
         ],
       },
       {
         group: "Organization",
-        items: ["Time Management", "Task Prioritization", "Project Planning"],
+        items: [
+          "Workflow Optimization",
+          "Task Prioritization",
+          "Strategic Planning",
+        ],
       },
       {
         group: "Project Facilitation",
-        items: ["Goal Setting", "Project Planning"],
+        items: ["Goal Setting", "Milestone Tracking", "Stakeholder Management"],
       },
       {
         group: "Innovation",
-        items: ["Creative Problem-Solving", "Initiative"],
+        items: [
+          "Creative Problem-Solving",
+          "Initiative",
+          "Continuous Improvement",
+        ],
       },
       {
         group: "Delegation",
-        items: ["Managing Workload", "Encouraging Ownership"],
+        items: [
+          "Managing Workload",
+          "Encouraging Ownership",
+          "Empowering Others",
+        ],
       },
       {
         group: "Adaptability",
-        items: ["Empathy", "Adaptability", "Patience"],
+        items: ["Emotional Intelligence", "Change Management"],
       },
       {
         group: "Conflict Resolution",
-        items: ["Mediation", "Diplomatic Communication"],
+        items: ["Negotiation", "Active Listening"],
       },
     ],
   },
   {
-    name: "Bonus",
+    name: "Add-ons",
     skills: [
       {
         group: "Technical Support",
@@ -106,7 +124,7 @@ export const ADDITIONAL_SKILLS = [
       },
       {
         group: "Playlist Connoisseur",
-        items: ["Crafting the perfect soundtrack for any focus session."],
+        items: ["Crafts the perfect soundtrack for any focus session."],
       },
     ],
   },
