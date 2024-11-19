@@ -48,7 +48,7 @@ export const PROJECTS_LIST = [
       "SASS",
       "Python",
       "Django REST Framework API",
-      "JWT AUthentication",
+      "JWT Authentication",
     ],
     description:
       "A simple, minimalist todo app - latda was built with the sole intention of practicing building a full stack web application that required user authentication. A particular challenge I faced was how to handle refreshing the short-lived access token without interrupting the users experience, or ability to post or update todos if they had been inactive for a few minutes.",
