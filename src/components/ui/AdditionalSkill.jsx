@@ -1,10 +1,10 @@
-import { formatAdditionalSkills } from "@/utils/skillsUtils.js";
+import { formatItemsWithConjunction } from "@/utils/globalUtils.js";
 
 const AdditionalSkill = ({ skill }) => {
   return (
     <li className="mt-2">
       <span className="font-bold text-gray-800">{skill.group}:</span>{" "}
-      {formatAdditionalSkills(skill.items)}
+      {formatItemsWithConjunction(skill.items)}
     </li>
   );
 };
