@@ -15,7 +15,7 @@ const Testimonials = () => {
   return (
     <Section id="testimonials" className="text-center">
       <SectionTitle>What my colleagues say about me.</SectionTitle>
-      <div className="testimonials mb-8">
+      <div className="testimonials -mx-8 mb-8">
         <Splide options={SPLIDE_OPTIONS}>
           {TESTIMONIALS_LIST.map((testimonial, index) => (
             <SplideSlide key={index}>
