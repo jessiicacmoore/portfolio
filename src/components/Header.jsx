@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { SiLinkedin } from "react-icons/si";
 import { Gradient } from "@/utils/gradient";
 import Button from "@/components/ui/Button";
+import resume from "@/assets/jessica-moore_resume.pdf";
 
 import style from "@/components/Header.module.css";
 
@@ -26,11 +27,7 @@ const Header = () => {
           <Button href="https://linkedin.com/in/jesscodes" target="_blank">
             <SiLinkedin className="mb-1 mr-1 inline-block" /> Let's connect!
           </Button>
-          <Button
-            href="https://linkedin.com/in/jesscodes"
-            target="_blank"
-            btnStyle="ghost"
-          >
+          <Button href={resume} target="_blank" btnStyle="ghost">
             Download my resume
           </Button>
         </div>
