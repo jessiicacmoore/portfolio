@@ -17,7 +17,7 @@ const Project = ({ project }) => {
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-2 lg:justify-start">
           {live && (
-            <Button href={repo} target="_blank">
+            <Button href={live} target="_blank">
               Live Demo
             </Button>
           )}

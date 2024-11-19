@@ -36,7 +36,7 @@ export const PROJECTS_LIST = [
     description:
       "Niagara Wineries is a front-end React app that makes calls to Yelp's Fusion api in order to display the local wineries in Niagara. Users can filter results to specific regions of Niagara such as Niagara-On-The-Lake or Beamsville. After completing the winery details aspect, I plan to incorperate a backend so users can save wineries they would like to visit, or wineries they enjoyed.",
     repo: "https://github.com/jessiicacmoore/react-niagara-wineries",
-    live: null,
+    live: "https://niagara-wineries.netlify.app/",
   },
   {
     title: "Literally Another ToDo App - LATDA",
@@ -53,6 +53,6 @@ export const PROJECTS_LIST = [
     description:
       "A simple, minimalist todo app - latda was built with the sole intention of practicing building a full stack web application that required user authentication. A particular challenge I faced was how to handle refreshing the short-lived access token without interrupting the users experience, or ability to post or update todos if they had been inactive for a few minutes.",
     repo: "https://github.com/jessiicacmoore/fullstack-todo-app",
-    live: null,
+    live: "https://latda.netlify.app/",
   },
 ];
